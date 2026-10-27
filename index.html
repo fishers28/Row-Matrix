@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Row-Matrix | Rowing Performance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ROW-MATRIX</h1>
+        <p>Your rowing performance, all in one place.</p>
+    </header>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#workouts">Workouts</a>
+        <a href="#progress">Progress</a>
+    </nav>
+
+    <main>
+        <section id="dashboard">
+            <h2>Welcome to Row-Matrix</h2>
+            <p>Track your training. Measure your progress. Reach your goals.</p>
+        </section>
+
+        <section id="workouts">
+            <h2>Log a Workout</h2>
+
+            <form id="workout-form">
+                <label for="distance">Distance (meters)</label>
+                <input type="number" id="distance" min="1" required>
+
+                <label for="duration">Duration (seconds)</label>
+                <input type="number" id="duration" min="1" required>
+
+                <button type="submit">Save Workout</button>
+            </form>
+
+            <h3>Your Workout History</h3>
+            <ul id="workout-list"></ul>
+        </section>
+
+        <section id="progress">
+            <h2>Your Progress</h2>
+            <p id="workout-count">Workouts completed: 0</p>
+            <p id="total-distance">Total distance: 0 meters</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Row-Matrix | Built for rowers, by rowers.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
