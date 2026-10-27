@@ -1,4 +1,3 @@
-# Row-Matrix
 # Row-Matrix | Rowing Performance Tracker
 
 **Row-Matrix is a rowing performance tracking application designed to help rowers record workouts, monitor performance, and track their progress over time.**
