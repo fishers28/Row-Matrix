@@ -1,5 +1,5 @@
 # Row-Matrix
-# 🏁 Row-Matrix | Rowing Performance Tracker
+# Row-Matrix | Rowing Performance Tracker
 
 **Row-Matrix is a rowing performance tracking application designed to help rowers record workouts, monitor performance, and track their progress over time.**
 
@@ -7,7 +7,7 @@ The goal of Row-Matrix is to bring workout logging, performance analytics, and t
 
 ---
 
-## 🚣 About the Project
+## About the Project
 
 As a rower, tracking performance is an important part of training. Row-Matrix aims to make it easier for athletes to record workouts, review previous sessions, and understand their progress.
 
@@ -17,7 +17,7 @@ Row-Matrix is an ongoing personal software development project focused on combin
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - Create a simple and accessible workout tracking experience.
 - Allow athletes to record and organize rowing workouts.
@@ -29,7 +29,7 @@ Row-Matrix is an ongoing personal software development project focused on combin
 
 ---
 
-## ✨ Planned Features
+## Planned Features
 
 ### Workout Logging
 - Record workout distance and duration.
@@ -67,7 +67,7 @@ Row-Matrix is an ongoing personal software development project focused on combin
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 The project is being developed incrementally using the following technologies:
 
@@ -83,7 +83,7 @@ Additional technologies, including Flask and SQLite, may be introduced as the ap
 
 ---
 
-## 🖥️ Current Development Status
+## Current Development Status
 
 Row-Matrix is currently in its early development stage.
 
@@ -98,7 +98,7 @@ The application will continue to evolve as additional functionality is implement
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -128,7 +128,7 @@ Replace `YOUR_GITHUB_REPOSITORY_URL` with the actual HTTPS URL of your GitHub re
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Row-Matrix/
@@ -144,7 +144,7 @@ The project structure may expand as additional features and application componen
 
 ---
 
-## 📈 Future Vision
+## Future Vision
 
 The long-term vision for Row-Matrix is to create a useful performance tracking platform for rowers of different experience levels.
 
@@ -154,7 +154,7 @@ Future development will focus on expanding the application's functionality, impr
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 Developed as a personal software development project exploring the intersection of rowing, athletic performance, and technology.
 
