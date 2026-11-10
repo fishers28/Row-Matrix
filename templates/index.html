@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Row-Matrix</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Row-Matrix</h1>
+
+  <form method="post">
+    <label>Split per 500m (e.g. 1:47.5)
+      <input name="split" placeholder="1:47.5" required>
+    </label>
+    <label>Distance (meters)
+      <input name="distance" type="number" value="2000" required>
+    </label>
+    <button type="submit">Calculate</button>
+  </form>
+
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+
+  {% if result %}
+    <div class="results">
+      <p>Split: <strong>{{ result.split }}</strong> /500m</p>
+      <p>Power: <strong>{{ result.watts }} W</strong></p>
+      <p>Projected {{ result.distance }}m time: <strong>{{ result.finish_time }}</strong></p>
+    </div>
+  {% endif %}
+</body>
+</html>
